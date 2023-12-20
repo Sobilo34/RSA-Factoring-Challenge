@@ -63,7 +63,8 @@ void factorize(int num)
 	/* Handle negative numbers */
 	if (num < 0)
 	{
-		printf("%d is a negative number and cannot be factorized.\n", num);
+/**		printf("%d is a negative number and cannot be factorized.\n", num);
+ * **/
 		return;
 	}
 
@@ -78,7 +79,7 @@ void factorize(int num)
 	{
 		if (num % i == 0)
 		{
-			printf("%d=%d*%d\n", num, i, num / i);
+/**			printf("%d=%d*%d\n", num, i, num / i);**/
 			factor_found = 1;
 			break;
 		}
